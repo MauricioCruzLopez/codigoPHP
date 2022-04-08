@@ -1,0 +1,21 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#ContieneImg {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  line-height: 0;
+  background-color: blanchedalmond;
+  perspective: none;
+}
+#gokuBlue {
+  filter: drop-shadow(0 0 10px rgb(86, 198, 218));
+  transition: all 1s ease-in-out;
+  background-color: transparent;
+}
+#gokuBlue:hover {
+  filter: drop-shadow(0 0 40px rgb(74, 166, 209));
+  transform: rotateY(25deg);
+}
