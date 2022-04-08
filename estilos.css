@@ -2,13 +2,17 @@
   margin: 0px;
   padding: 0px;
 }
-#ContieneImg {
+.articulo {
+  height: 1000px;
+  background-color: rgb(39, 204, 102);
   display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-  line-height: 0;
-  background-color: blanchedalmond;
-  perspective: none;
+  justify-content: space-between;
+  flex-direction: column;
+}
+#ContieneImg {
+  background-color: rgb(245, 213, 166);
+  perspective: 1000px;
+  text-align: center;
 }
 #gokuBlue {
   filter: drop-shadow(0 0 10px rgb(86, 198, 218));
@@ -17,5 +21,14 @@
 }
 #gokuBlue:hover {
   filter: drop-shadow(0 0 40px rgb(74, 166, 209));
-  transform: rotateY(25deg);
+  transform: rotateY(35deg);
+}
+#section1 {
+  background-color: tan;
+}
+#section2 {
+  background-color: tomato;
+}
+#section3 {
+  background-color: violet;
 }
